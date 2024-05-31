@@ -1,0 +1,350 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  width: 100%;
+  background-color: rgb(32, 31, 31);
+  /* padding-left: 10px; */
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 38%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.navbar>h1{
+  margin: 35px;
+  font-size: 50px;
+  color: white;
+  /* text-shadow: black 12px -24px 20px; */
+  text-shadow: rgb(157, 160, 160)   -10px 22px 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.right>li{
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 30px;
+  margin: 10px;
+}
+.right>li>a{
+  text-decoration: none;
+  color: rgb(241, 231, 231);
+  font-size: 16px;
+  font-size: 17px;
+}
+.right>li>a:hover{
+  color:rgb(13, 92, 145);
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 30%;
+  padding-left: 35px;
+  padding-right: 25px;
+  color: azure;
+}
+
+.left>a{
+  text-decoration: none;
+  color: rgb(235, 124, 124);
+  font-size: 20px;
+
+}
+.left>a>button{
+  height: 45px;
+  width: 100px;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background-color: rgb(18, 144, 194);
+}
+.left>a>button:hover{
+  background-color: rgb(138, 135, 135);
+}
+.description{
+  /* background-color: yellow; */
+  height: 200px;
+  width: 500px;
+  margin: 80px;
+  line-height:20px;
+}
+.description>h1{
+  font-size: 80px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description>p{
+
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description>a{
+  text-decoration:none;
+  color: white;
+  /* background-color: yellow; */
+  height: 25px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 3px;
+}
+.description>a:hover{
+  background-color: rgb(116, 106, 106);
+}
+.front{
+  height: 350px;
+  width: 80%;
+}
+
+.page2{
+  background-color: rgb(238, 233, 233);
+}
+.page2>.heading{
+
+  /* background-color: pink; */
+  height:10vh;
+  display: grid;
+  place-items: center;
+  
+}
+.heading>a{
+  align-items: center;
+  color: rgb(4, 177, 189);
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.heading>a:hover{
+  color: rgb(221, 205, 205);
+  background-color: rgb(0, 153, 255);
+  border-radius: 5px;
+}
+h2{
+  height: 140px;
+  width: 30%;
+  text-wrap:nowrap ;
+  text-align: center;
+  text-transform: capitalize;
+  /* line-height: 50px; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background-color: yellow; */
+  margin: 0px 100px 20px 400px;
+  padding: 20px 40px ; 
+  word-spacing: 3px;
+}
+.content{
+  height:500px ;
+  width: 90%;
+  /* background-color: rgb(240, 234, 234); */
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 2, 8);
+  margin: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+.features{
+  height: 350px;
+  width: 40%;
+  word-wrap:normal;
+  /* background-color: green; */
+  margin: 10px 60px 20px 40px;
+  margin-left: 150px;
+  
+}
+.features>.tools{
+  height: 100px;
+  width: 400px;
+  /* background-color: yellow; */
+  margin: 20px;
+  padding: 20px;
+  line-height: 20px;
+}
+.features>.flexi{
+  height: 100px;
+  width: 400px;
+  /* background-color: yellow; */
+  display: grid;
+  margin: 20px;
+  padding: 20px;
+  line-height: 20px;
+}
+.features>.therapist{
+  height: 100px;
+  width: 400px;
+  /* background-color: yellow; */
+  margin: 20px;
+  padding: 20px;
+  line-height: 20px;
+}
+.content>img{
+  height: 450px;
+  width: 60%;
+margin-right: 80px;
+padding: 30px;
+border-radius: 45px;
+}
+.next{
+  /* background-color: bisque; */
+  display: flex;
+}
+.diary{
+  margin: 30px;
+}
+.diary>img{
+  height: 400px;
+  width: 500px;
+  border-radius: 25px;
+}
+h1{
+  height: 50px;
+  /* background-color: blueviolet; */
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+.com>p{
+  margin: 20px 80px;
+  padding: 20px;
+  line-height: 40px;
+  font-size: 20px;
+}
+.bluebox{
+  height: 350px;
+  width: 100%;
+  background-color: rgb(206, 232, 243);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(55, 121, 148);
+}
+.bluebox>.boxes{
+  height: 250px;
+  width: 80%;
+  background-color: rgb(206, 232, 243);
+  display: flex;
+  margin: 60px 50px;
+  justify-content: space-between;
+  /* background-color: gainsboro; */
+  align-items: center;
+}
+.bluebox>.boxes>.box1{
+  height: 150px;
+  width: 40%;
+  padding: 20px;
+  /* color: grey; */
+}
+.bluebox>.boxes>.box2{
+  height: 150px;
+  width: 40%;
+  padding: 20px;
+  /* color: grey; */
+}
+.bluebox>.boxes>.box3{
+  height: 150px;
+  width: 40%;
+  padding:20px;
+  /* color: grey; */
+}
+.bluebox>h3{
+  color: black;
+}
+.blackbox{
+  height: 400px;
+  width: auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 60px 20px 40px;
+  margin-left: 150px;
+
+}
+.blackbox>.text{
+  height: 300px;
+  width: 50%;
+  margin-top: 35px;
+
+  /* background-color: rgb(136, 192, 241); */
+  /* padding: 10px; */
+}
+.blackbox>.text>h1{
+  font-size: 25px;
+  color: rgb(231, 225, 225);
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+.blackbox>.text>p{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(138, 131, 131);
+  text-align:left;
+}
+.blackbox>.speech{
+  height: 360px;
+  width: 45%;
+padding: 30px;
+}
+.blackbox>.speech>img{
+  height: 350px;
+ width: 500px;
+ margin-top: 20px;
+ border-radius: 10px
+}
+.blog{
+  background-color: rgb(223, 223, 218);
+  
+}
+.blog>.head>.center{
+  height: 120px;
+  width: 600px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  /* background-color: yellow; */
+  margin-left: 400px;
+}
+.blogs{
+  height: 400px;
+  width: 100%;
+ /* background-color: rgb(202, 86, 105); */
+ /* margin: 30px; */
+ padding: 30px;
+ display: flex;
+ justify-content: space-between;
+}
+.blog1{
+  height: 300px;
+  width: 420px;
+  margin-left: 70px;
+}
+.blogs>.blog1>img{
+  height: 250px;
+  width: 400px;
+}
+.blogs>.blog1>p{
+
+}
+.blog2{
+  height: 300px;
+  width: 420px;
+  margin-right: 70px;
+}
+.blogs>.blog2>img{
+  height: 250px;
+  width: 400px;
+}
